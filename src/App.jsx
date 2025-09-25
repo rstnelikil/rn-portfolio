@@ -1,9 +1,20 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Experience from "./pages/Experience";
+import RoleDetail from "./pages/RoleDetail";
+import ScrollToTop from "./components/ScrollToTop";
+import BackToTop from "./components/BackToTop";
+
 export default function App() {
   return (
-    <main className="min-h-screen bg-gray-50 flex items-center justify-center p-8">
-      <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
-        Ramesh — React + Tailwind MVP
-      </h1>
-    </main>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/experience/:id" element={<RoleDetail />} />
+      </Routes>
+      <BackToTop />
+    </BrowserRouter>
   );
 }

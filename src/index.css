@@ -1,3 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    /* Indigo palette */
+    --color-brand: #4f46e5;
+    /* indigo-600 */
+    --color-brand-light: #818cf8;
+    /* indigo-400 */
+    --color-brand-dark: #3730a3;
+    /* indigo-800 */
+
+    /* Indigo palette */
+    --color-indigo: #4f46e5;
+    /* indigo-600 */
+    --color-indigo-light: #818cf8;
+    /* indigo-400 */
+    --color-indigo-dark: #3730a3;
+    /* indigo-800 */
+
+    /* Teal palette */
+    --color-teal: #14b8a6;
+    /* teal-500 */
+    --color-teal-light: #5eead4;
+    /* teal-300 */
+    --color-teal-dark: #0f766e;
+    /* teal-700 */
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-sm font-medium transition-colors;
+    }
+
+    .btn-primary {
+        @apply bg-brand text-white hover:bg-brand-dark;
+    }
+
+    .btn-secondary {
+        @apply border border-gray-300 bg-white text-gray-900 hover:bg-gray-100;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.4s ease-out forwards;
+}
