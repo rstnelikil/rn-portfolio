@@ -4,6 +4,7 @@ import Experience from "./pages/Experience";
 import RoleDetail from "./pages/RoleDetail";
 import ScrollToTop from "./components/ScrollToTop";
 import BackToTop from "./components/BackToTop";
+import StickyHeadshot from "./components/StickyHeadshot";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/experience/:id" element={<RoleDetail />} />
       </Routes>
       <BackToTop />
+      <StickyHeadshot />
     </BrowserRouter>
   );
 }
