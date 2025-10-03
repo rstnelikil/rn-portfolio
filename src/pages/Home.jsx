@@ -73,35 +73,36 @@ export default function Home() {
             </section>
 
             {/* Core Skills Section */}
-            <section className="section-container">
+            <section className="max-w-6xl mx-auto px-6 my-12">
                 <div className="section-surface bg-gradient-to-r from-indigo-50 to-indigo-100 py-10 px-6">
                     <h2 className="text-center text-2xl md:text-3xl font-bold tracking-wide text-indigo-900 mb-8">
                         Core Skills &amp; Strengths
                     </h2>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-8 justify-items-center">
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-100">
+                    {/* Flexible, no-overlap pill row */}
+                    <div className="flex flex-wrap justify-center gap-x-6 gap-y-5">
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-100">
                             AI-Led Transformation
                         </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-teal-700 bg-white shadow whitespace-nowrap animate-fade-in delay-200">
-                            Platform Modernization
-                        </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-300">
-                            Operational Excellence
-                        </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-amber-700 bg-white shadow whitespace-nowrap animate-fade-in delay-400">
-                            Architecture &amp; Design
-                        </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-slate-700 bg-white shadow whitespace-nowrap animate-fade-in delay-500">
-                            Global Collaboration
-                        </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-600">
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-teal-700 bg-white shadow whitespace-nowrap animate-fade-in delay-200">
                             Strategic Thinking
                         </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-teal-700 bg-white shadow whitespace-nowrap animate-fade-in delay-700">
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-300">
+                            Platform Modernization
+                        </span>
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-amber-700 bg-white shadow whitespace-nowrap animate-fade-in delay-400">
+                            Architecture &amp; Design
+                        </span>
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-slate-700 bg-white shadow whitespace-nowrap animate-fade-in delay-500">
+                            Global Collaboration
+                        </span>
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-600">
                             Product Roadmap
                         </span>
-                        <span className="px-6 py-3 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-800">
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-teal-700 bg-white shadow whitespace-nowrap animate-fade-in delay-700">
+                            Operational Excellence
+                        </span>
+                        <span className="shrink-0 px-6 md:px-7 py-3 md:py-3.5 rounded-full text-base md:text-lg font-semibold text-indigo-700 bg-white shadow whitespace-nowrap animate-fade-in delay-800">
                             Servant Leadership
                         </span>
                     </div>
