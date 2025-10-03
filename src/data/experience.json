@@ -88,6 +88,7 @@
             "highlights": [
                 "Directed the high-risk migration of a ~$3B revenue government billing system to a modern stack with zero disruption, enabling new feature growth.",
                 "Led re-architecture and refactoring initiatives, reducing maintenance costs by ~30% and support costs by ~20%.",
+                "Championed engineering best practices and modernization strategies to increase platform stability, scalability, and long-term sustainability.",
                 "Transformed a broken team culture into a high-performing, engaged unit through trust, accountability, and open communication."
             ],
             "tech": [
@@ -114,8 +115,11 @@
             "image": "/src/assets/images/experience/highmark-architecture.jpg",
             "imageAlt": "Modular architecture illustration conveying legacy modernization and scalability.",
             "highlights": [
+                "Served as Technology Architect across multiple healthcare domains, partnering with business and engineering leaders to define modernization strategy and execution.",
                 "Co-led a 5-year legacy modernization program: deprecated core mainframe features and migrated to scalable web apps; lowered tech debt and operating costs.",
-                "Drove secure, compliant architecture across healthcare platforms; improved performance and integration patterns."
+                "Drove secure, compliant architecture across healthcare platforms; improved performance and integration patterns.",
+                "Guided cross-functional teams through architecture design, performance optimization, and integration patterns, ensuring secure and compliant solutions aligned with healthcare regulations.",
+                "Championed the adoption of best practices in design patterns, reusable components, and API-led development, improving developer productivity and maintainability of critical systems."
             ],
             "tech": [
                 "Java",
@@ -149,7 +153,8 @@
             "imageAlt": "Engineers collaborating at a workstation during code design and review.",
             "highlights": [
                 "Advanced from mid-level to lead through consistent delivery and mentorship.",
-                "Led migration from mainframe to hybrid (vendor + homegrown web app), improving scalability, usability, and compliance."
+                "Led the successful migration of a mainframe-based platform to a hybrid solution combining a vendor product and a homegrown web application, improving usability, scalability, and compliance.",
+                "Mentored junior engineers, conducted peer reviews, and collaborated with business analysts and QA teams to improve delivery quality and shorten release cycles."
             ],
             "tech": [
                 "Java",
