@@ -62,7 +62,7 @@ export default function AccordionExperienceItem({
             {/* Body */}
             <div
                 data-open={isOpen}
-                className={`overflow-hidden border-t border-gray-100 transition-[max-height,opacity] duration-500 ease-in-out ${isOpen ? "max-h-[1200px] opacity-100" : "max-h-0 opacity-0"
+                className={`overflow-hidden border-t border-gray-100 transition-[max-height,opacity] duration-500 ease-in-out ${isOpen ? "max-h-[4000px] opacity-100" : "max-h-0 opacity-0"
                     }`}
             >
                 <div className="p-5">
