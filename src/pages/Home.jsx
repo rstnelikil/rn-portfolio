@@ -59,11 +59,11 @@ export default function Home() {
                                     >
                                         LinkedIn
                                     </a>
-                                    <a href="/resume.pdf" className="btn btn-secondary">
+                                    <a href="/rameshnelikil.pdf" className="btn btn-secondary">
                                         Download Resume
                                     </a>
                                     <a href="/experience" className="btn btn-primary">
-                                        Profile
+                                        My Journey
                                     </a>
                                 </div>
                             </div>
@@ -277,14 +277,14 @@ export default function Home() {
                     <div className="space-y-2 mb-4">
                         <p className="flex items-center justify-center gap-2">
                             <EnvelopeIcon className="h-5 w-5 text-indigo-300" />
-                            <a href="mailto:youremail@example.com" className="hover:underline">
-                                youremail@example.com
+                            <a href="mailto:rstnelikil@gmail.com" className="hover:underline">
+                                rstnelikil@gmail.com
                             </a>
                         </p>
                         <p className="flex items-center justify-center gap-2">
                             <PhoneIcon className="h-5 w-5 text-indigo-300" />
-                            <a href="tel:+1234567890" className="hover:underline">
-                                +1 (234) 567-890
+                            <a href="tel:+17244073897" className="hover:underline">
+                                +1 (724) 407-3897
                             </a>
                         </p>
                     </div>
@@ -299,7 +299,7 @@ export default function Home() {
                         >
                             LinkedIn
                         </a>
-                        <a href="/resume.pdf" className="btn btn-secondary">
+                        <a href="/rameshnelikil.pdf" className="btn btn-secondary">
                             Download Resume
                         </a>
                     </div>

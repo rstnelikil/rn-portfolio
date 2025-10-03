@@ -19,9 +19,12 @@
             "highlights": [
                 "Defined and executed the global roadmap for digital order fulfillment supporting ~30% of digital revenue; balanced customer experience, scalability, and cost.",
                 "Modernized the platform by consolidating 100+ microservices, reducing cloud spend by ~30% and maintenance costs by ~40%, delivering ~$1.2M annual savings.",
+                "Partnered with business and product stakeholders to define product vision and translate it into actionable technology solutions aligned with organizational goals.",
                 "Led cloud migrations of on-prem solutions to align with cloud strategy, improving scalability and simplifying long-term maintenance.",
+                "Applied strong analytical and problem-solving skills to simplify complex systems, reduce technical debt, and design innovative solutions that improved performance, reliability, and time-to-delivery.",
                 "Championed AI enablement (GitHub Copilot, AI agents) to accelerate testing and automate repo upgrades (4 weeks → 3 days).",
-                "Built and coached high-performing global teams; partnered with product/business across US, China, India, and Europe to align priorities and execution."
+                "Built and coached high-performing global teams; partnered with product/business across US, China, India, and Europe to align priorities and execution.",
+                "Promoted a culture of innovation and continuous improvement, empowering teams to experiment with AI-driven tools that enhanced both delivery speed and engineering quality."
             ],
             "tech": [
                 "Java",
@@ -29,20 +32,30 @@
                 "Spring Boot",
                 "Microservices",
                 "AWS",
+                "SQL/NOSQL",
+                "Event-Driven Architecture",
                 "Kafka",
+                "Apache Camel",
+                "Kubernetes",
+                "Docker",
+                "Terraform",
+                "Jenkins",
                 "Redis",
                 "API Gateway",
+                "Data Engineering",
                 "OpenTelemetry",
                 "Splunk",
                 "SignalFx",
                 "Grafana",
                 "GitHub Copilot",
-                "AI Agents"
+                "AI Agents",
+                "OAuth",
+                "Okta"
             ]
         },
         {
             "id": "highmark-director-growth",
-            "company": "Highmark Blue Cross Blue Shield (HM Health Solutions)",
+            "company": "HM Health Solutions (A subsidiary of Highmark Health)",
             "role": "Software Engineering Director — Strategic Growth Implementations",
             "image": "/src/assets/images/experience/highmark-director.jpg",
             "imageAlt": "Abstract network of connected nodes representing platform onboarding and scale.",
@@ -54,16 +67,22 @@
             "tech": [
                 "Java",
                 "Spring Boot",
-                "AWS",
+                "React",
                 "APIs",
+                "Oracle/SQL",
+                "Kubernetes",
+                "Docker",
                 "Automation",
-                "CI/CD"
+                "CI/CD",
+                "OpenShift",
+                "Splunk",
+                "Observability"
             ]
         },
         {
             "id": "highmark-manager-billing",
-            "company": "Highmark Blue Cross Blue Shield (HM Health Solutions)",
-            "role": "Software Engineering Manager — Health Plan Membership & Billing",
+            "company": "HM Health Solutions (A subsidiary of Highmark Health)",
+            "role": "Software Engineering Manager — Health Plan Premium Billing",
             "image": "/src/assets/images/experience/highmark-manager.jpg",
             "imageAlt": "Abstract data pipeline visual symbolizing secure billing and membership processing.",
             "highlights": [
@@ -73,15 +92,24 @@
             ],
             "tech": [
                 "Java",
+                "Spring Boot",
                 "Oracle/SQL",
                 "Messaging/MQ",
+                "JMS",
+                "ETL",
+                "APIs",
+                "Agile",
                 "CI/CD",
+                "Kubernetes",
+                "Docker",
+                "OpenShift",
+                "Splunk",
                 "Observability"
             ]
         },
         {
             "id": "highmark-architect",
-            "company": "Highmark Blue Cross Blue Shield (HM Health Solutions)",
+            "company": "Highmark Inc.",
             "role": "Sr. Software Architect",
             "image": "/src/assets/images/experience/highmark-architecture.jpg",
             "imageAlt": "Modular architecture illustration conveying legacy modernization and scalability.",
@@ -93,14 +121,29 @@
                 "Java",
                 "J2EE",
                 "Web Services",
+                "COBOL",
+                "CICS",
+                "DB2",
+                "Oracle/SQL",
+                "JMS",
                 "Mainframe Integration",
                 "Design Patterns",
-                "API-led Architecture"
+                "API-led Architecture",
+                "IBM MQ",
+                "ETL/Interfaces",
+                "Agile",
+                "CI/CD",
+                "Websphere",
+                "Message Broker",
+                "Pega",
+                "OpenShift",
+                "Splunk",
+                "Observability"
             ]
         },
         {
             "id": "highmark-engineer",
-            "company": "Highmark Blue Cross Blue Shield (HM Health Solutions)",
+            "company": "Highmark Inc.",
             "role": "Software Engineer → Lead Engineer (Care Management)",
             "image": "/src/assets/images/experience/highmark-engineer.jpg",
             "imageAlt": "Engineers collaborating at a workstation during code design and review.",
@@ -110,9 +153,21 @@
             ],
             "tech": [
                 "Java",
-                "Web Apps",
-                "Relational DB",
-                "ETL/Interfaces"
+                "J2EE",
+                "Web Services",
+                "COBOL",
+                "CICS",
+                "DB2",
+                "Oracle/SQL",
+                "JMS",
+                "Mainframe Integration",
+                "APIs",
+                "IBM MQ",
+                "ETL/Interfaces",
+                "Websphere",
+                "Message Broker",
+                "Splunk",
+                "Observability"
             ]
         }
     ]
