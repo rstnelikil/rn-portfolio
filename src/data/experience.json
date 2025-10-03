@@ -14,7 +14,7 @@
             "id": "nike-order-fulfillment",
             "company": "Nike Inc.",
             "role": "Software Engineering Director — Order Fulfillment (Supply Chain)",
-            "image": "/src/assets/images/experience/warehouse.jpg",
+            "image": "/images/experience/warehouse.jpg",
             "imageAlt": "Automated parcel conveyor and warehouse robotics illustrating digital order fulfillment.",
             "highlights": [
                 "Defined and executed the global roadmap for digital order fulfillment supporting ~30% of digital revenue; balanced customer experience, scalability, and cost.",
@@ -57,7 +57,7 @@
             "id": "highmark-director-growth",
             "company": "HM Health Solutions (A subsidiary of Highmark Health)",
             "role": "Software Engineering Director — Strategic Growth Implementations",
-            "image": "/src/assets/images/experience/highmark-director.jpg",
+            "image": "/images/experience/highmark-director.jpg",
             "imageAlt": "Abstract network of connected nodes representing platform onboarding and scale.",
             "highlights": [
                 "Enabled faster market expansion with a configuration platform that cut payer onboarding time by ~30% (12→8 months) and ~15% cost savings (~$5M per large client).",
@@ -83,7 +83,7 @@
             "id": "highmark-manager-billing",
             "company": "HM Health Solutions (A subsidiary of Highmark Health)",
             "role": "Software Engineering Manager — Health Plan Premium Billing",
-            "image": "/src/assets/images/experience/highmark-manager.jpg",
+            "image": "/images/experience/highmark-manager.jpg",
             "imageAlt": "Abstract data pipeline visual symbolizing secure billing and membership processing.",
             "highlights": [
                 "Directed the high-risk migration of a ~$3B revenue government billing system to a modern stack with zero disruption, enabling new feature growth.",
@@ -112,7 +112,7 @@
             "id": "highmark-architect",
             "company": "Highmark Inc.",
             "role": "Sr. Software Architect",
-            "image": "/src/assets/images/experience/highmark-architecture.jpg",
+            "image": "/images/experience/highmark-architecture.jpg",
             "imageAlt": "Modular architecture illustration conveying legacy modernization and scalability.",
             "highlights": [
                 "Served as Technology Architect across multiple healthcare domains, partnering with business and engineering leaders to define modernization strategy and execution.",
@@ -149,7 +149,7 @@
             "id": "highmark-engineer",
             "company": "Highmark Inc.",
             "role": "Software Engineer → Lead Engineer (Care Management)",
-            "image": "/src/assets/images/experience/highmark-engineer.jpg",
+            "image": "/images/experience/highmark-engineer.jpg",
             "imageAlt": "Engineers collaborating at a workstation during code design and review.",
             "highlights": [
                 "Advanced from mid-level to lead through consistent delivery and mentorship.",
