@@ -1,5 +1,5 @@
 // src/components/AccordionExperienceItem.jsx
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function AccordionExperienceItem({
     id,
@@ -13,6 +13,13 @@ export default function AccordionExperienceItem({
     onToggle = () => { },
 }) {
     const rootRef = useRef(null);
+
+    const [techOpen, setTechOpen] = useState(false);
+
+    // Close nested Tech Stack when the main accordion closes
+    useEffect(() => {
+        if (!isOpen) setTechOpen(false);
+    }, [isOpen]);
 
     return (
         <article
@@ -83,27 +90,42 @@ export default function AccordionExperienceItem({
                     {/* Tech stack */}
                     {tech?.length > 0 && (
                         <div className="mt-2">
-                            <h4 className="text-sm font-semibold text-gray-800 mb-2">
-                                Tech Stack
-                            </h4>
-                            <div className="flex flex-wrap gap-2">
-                                {tech.map((t, i) => (
-                                    <span
-                                        key={i}
-                                        className="inline-flex items-center gap-1.5
-                 rounded-full px-3 py-1.5 text-sm font-medium
-                 bg-indigo-50 text-indigo-800
-                 ring-1 ring-indigo-200
-                 hover:bg-indigo-100 hover:ring-indigo-300
-                 transition-colors"
-                                        title={t}
-                                    >
-                                        {/* dot accent */}
-                                        <span className="h-1.5 w-1.5 rounded-full bg-indigo-500"></span>
-                                        {t}
-                                    </span>
-                                ))}
+                          {/* Sub-accordion header */}
+                          <button
+                            type="button"
+                            onClick={() => setTechOpen((v) => !v)}
+                            aria-expanded={techOpen}
+                            aria-controls={`tech-${id}`}
+                            className="w-full flex items-center justify-between rounded-lg bg-indigo-50/60 hover:bg-indigo-100 px-3 py-2 text-sm font-semibold text-indigo-800 ring-1 ring-indigo-200 transition"
+                          >
+                            <span>Tech Stack</span>
+                            <span
+                              className={`ml-3 transition-transform duration-300 ${techOpen ? "rotate-180" : ""}`}
+                              aria-hidden="true"
+                            >
+                              ▼
+                            </span>
+                          </button>
+
+                          {/* Sub-accordion body */}
+                          <div
+                            id={`tech-${id}`}
+                            data-open={techOpen}
+                            className={`overflow-hidden transition-[max-height,opacity] duration-400 ease-in-out ${techOpen ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"}`}
+                          >
+                            <div className="pt-3 flex flex-wrap gap-2">
+                              {tech.map((t, i) => (
+                                <span
+                                  key={i}
+                                  className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium bg-indigo-50 text-indigo-800 ring-1 ring-indigo-200 hover:bg-indigo-100 hover:ring-indigo-300 transition-colors"
+                                  title={t}
+                                >
+                                  <span className="h-1.5 w-1.5 rounded-full bg-indigo-500"></span>
+                                  {t}
+                                </span>
+                              ))}
                             </div>
+                          </div>
                         </div>
                     )}
                 </div>
